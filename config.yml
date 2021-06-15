@@ -1,0 +1,9 @@
+name: hf-course
+channels:
+  - anaconda
+dependencies:
+  - python=3.8
+  - pip=20.2.*
+  - jupyterlab
+  - pip:
+    - transformers==4.6.*
