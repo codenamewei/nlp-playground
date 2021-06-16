@@ -1,9 +1,14 @@
 name: hf-course
 channels:
   - anaconda
+  - conda-forge
+  - pytorch
 dependencies:
   - python=3.8
+  - pytorch=1.8.*
+  - torchvision=0.9.*
   - pip=20.2.*
-  - jupyterlab
+  - jupyterlab=3.0.*
   - pip:
     - transformers==4.6.*
+    - datasets==1.8.*
