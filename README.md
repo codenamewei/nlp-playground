@@ -1,4 +1,3 @@
-# huggingface-playground
 
 ## How to Start
 ```
