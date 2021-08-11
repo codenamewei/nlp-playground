@@ -1,4 +1,4 @@
-name: hf-course
+name: huggingface-playground
 channels:
   - anaconda
   - conda-forge
