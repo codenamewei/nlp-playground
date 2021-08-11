@@ -1,6 +1,13 @@
 ## How to Start
+
+### Create environment
 ```
 conda env create -f config.yml
+```
+
+### Start environment
+```
+conda activate huggingface-playground
 ```
 
 ## Important Gist about Huggingface ecosystems
