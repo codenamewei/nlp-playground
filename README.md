@@ -1,13 +1,13 @@
 ## How to Start
 
-### Create environment
+**Create environment**
 ```
 conda env create -f config.yml
 ```
 
-### Start environment
+**Start environment**
 ```
-conda activate huggingface-playground
+conda activate nlp-playground
 ```
 
 ## Important Gist about Huggingface ecosystems
@@ -19,8 +19,6 @@ conda activate huggingface-playground
 - [Accelerate _Model Training Acceleration_](https://github.com/huggingface/accelerate)
 - [Model Hub](https://huggingface.co/models)
 
+## NLP Libraries
+- [A deep learning toolkit for Text-to-Speech, battle-tested in research and production](https://github.com/coqui-ai/TTS)
 
-## References
-<h3 align="center">
-    <a href="https://hf.co/course"><img src="https://raw.githubusercontent.com/huggingface/accelerate/main/docs/source/imgs/course_banner.png"></a>
-</h3>

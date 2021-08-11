@@ -1,4 +1,4 @@
-name: huggingface-playground
+name: nlp-playground
 channels:
   - anaconda
   - conda-forge
