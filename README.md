@@ -21,4 +21,5 @@ conda activate nlp-playground
 
 ## NLP Libraries
 - [A deep learning toolkit for Text-to-Speech, battle-tested in research and production](https://github.com/coqui-ai/TTS)
+- [An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
 
