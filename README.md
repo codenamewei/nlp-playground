@@ -20,6 +20,6 @@ conda activate nlp-playground
 - [Model Hub](https://huggingface.co/models)
 
 ## NLP Libraries
-- [A deep learning toolkit for Text-to-Speech, battle-tested in research and production](https://github.com/coqui-ai/TTS)
-- [An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
+- [coqui-ai/TTS - A deep learning toolkit for Text-to-Speech, battle-tested in research and production](https://github.com/coqui-ai/TTS)
+- [allenai/allennlp - An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
 
