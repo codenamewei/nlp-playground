@@ -23,9 +23,17 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - tokenizer/tokenization
 - window-based neural model
 - domain mismatch
+- agglutinative language 
+- prefix 
+- suffix
+
 
 
 ### Algorithm
+
+- WordPiece
+- SentencePiece
+- Byte-Pair Encoding
 - Term Frequency — Inverse Document Frequency (TF-IDF)
 - Global Vectors for Word Representation (GloVE)
 - Skip Grams
@@ -59,10 +67,10 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 ### Huggingface Specific
 - state dictionary
   - contains model weights/parameters, often stored in *.bin
-- Special characters
+- Special tokens
 
 | Token | Notes |
 | :---------------------:  | :---------------------:  |
 | [CLS] | Beginnning of sentence|
 | [SEP] | End of sentence |
-| [UNK] | Unknown character |
+| [UNK] | Unknown character (Words that are not represented in the dictionary) |
