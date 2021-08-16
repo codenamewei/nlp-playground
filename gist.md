@@ -59,3 +59,10 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 ### Huggingface Specific
 - state dictionary
   - contains model weights/parameters, often stored in *.bin
+- Special characters
+
+| Token | Notes |
+| :---------------------:  | :---------------------:  |
+| [CLS] | Beginnning of sentence|
+| [SEP] | End of sentence |
+| [UNK] | Unknown character |
