@@ -10,7 +10,9 @@ conda env create -f config.yml
 conda activate nlp-playground
 ```
 
-## NLP Libraries
+## Resources
+
+### NLP Libraries
 - [coqui-ai/TTS - A deep learning toolkit for Text-to-Speech, battle-tested in research and production](https://github.com/coqui-ai/TTS)
 - [allenai/allennlp - An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
 - Huggingface
@@ -19,3 +21,6 @@ conda activate nlp-playground
   - [Tokenizers](https://github.com/huggingface/tokenizers)
   - [Accelerate _Model Training Acceleration_](https://github.com/huggingface/accelerate)
   - [Model Hub](https://huggingface.co/models)
+
+### Tutorials
+- https://jalammar.github.io/illustrated-transformer/
