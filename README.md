@@ -24,3 +24,7 @@ conda activate nlp-playground
 
 ### Tutorials
 - https://jalammar.github.io/illustrated-transformer/
+
+
+### Interesting Repos
+- [**subreddit-analyzer** _A comprehensive Data and Text Mining workflow for submissions and comments from any given public subreddit_](https://github.com/PhantomInsights/subreddit-analyzer)
