@@ -21,6 +21,7 @@ conda activate nlp-playground
   - [Tokenizers](https://github.com/huggingface/tokenizers)
   - [Accelerate _Model Training Acceleration_](https://github.com/huggingface/accelerate)
   - [Model Hub](https://huggingface.co/models)
+- [konlpy Python package for Korean natural language processing. ](https://github.com/konlpy/konlpy)
 
 ### Tutorials
 - https://jalammar.github.io/illustrated-transformer/
