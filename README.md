@@ -32,4 +32,4 @@ conda activate nlp-playground
 
 
 ### Blogs
-- https://huggingface.co/blog
+- [HuggingFace Blogs](https://huggingface.co/blog)
