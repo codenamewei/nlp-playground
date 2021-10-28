@@ -1,7 +1,7 @@
 Every domain has it's commonly used terms/phrases.  
 Below is an non-exhaustive list covering important keywords in Natural Language Processing (NLP). 
 
-### General
+## General
 - corpus
 - word embedding/word vector/word representation
 - contextual word representations
@@ -19,6 +19,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - self-supervised learning
 - causal language model
 - sequence-to-sequence (seq-to-seq)
+- encoder-decoder network
 - extrinsic<>instrinsic evaluation
 - tokenizer/tokenization
 - window-based neural model
@@ -48,23 +49,34 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - Bilingual Evaluation Understudy (BLEU)
   
   
-### Use Cases
+## Use Cases
+  
+### Classification
 - Document Classification
 - Sentiment Analysis
 - Spam Filtering
 - Dialog Classification
+  
+### Seq-to-seq
 - Text Summarization
 - Question Answering
-- Phase/Sentence Similarity
 - Machine Translation
+- Text-to-Speech(TTS) Generation
+- Dialogue Modelling
+    - Designing formal systems that reproduce aspects of natural conversation
+  
+### Others
+- Phase/Sentence Similarity
 - Named Entity Recognition (NER)
 - Dependency Parsing
 - Part of Speech (POS) Tagging
 - Masked Language Modelling
 - Zero Shot Classification
 - Text Generation  
+- Speech Synthesis
+
   
-### Huggingface Specific
+## Huggingface Specific
 - state dictionary
   - contains model weights/parameters, often stored in *.bin
 - Special tokens
@@ -74,3 +86,8 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 | [CLS] | Beginnning of sentence|
 | [SEP] | End of sentence |
 | [UNK] | Unknown character (Words that are not represented in the dictionary) |
+  
+  
+  ### Notes
+  - Encoder-decoder network / sequence-to-sequence model generates contextually appropriate, arbitrary length, output sequences
+  - **Autoregressive model** is a time series model that uses observations from previous time steps as input to predict the value at the next time step. Seq-to-seq / Encoder-decoder model is an autoregressive model.
