@@ -27,8 +27,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - agglutinative language 
 - prefix 
 - suffix
-
-
+- parallel text/**bitext**
 
 ### Algorithm
 
@@ -91,3 +90,4 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
   ### Notes
   - Encoder-decoder network / sequence-to-sequence model generates contextually appropriate, arbitrary length, output sequences
   - **Autoregressive model** is a time series model that uses observations from previous time steps as input to predict the value at the next time step. Seq-to-seq / Encoder-decoder model is an autoregressive model.
+  - The resources used to train machine translation systems are known as parallel texts, or bitexts. These are large text collections consisting of pair of sentences from different languages that are translation of one another. 
