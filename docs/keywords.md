@@ -9,11 +9,11 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - stopwords
 - Out of Vocabulary (OOV)
 - attention
-- language model/modelling
+- language model/modelling (LM)
 - downstream task
 - negative sampling
 - hierarchical softmax
-- auto-regressive
+- auto-regressive model
 - auto-encoding
 - lexical-database
 - self-supervised learning
@@ -29,7 +29,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - suffix
 - parallel text/**bitext**
 
-### Algorithm
+## Algorithm
 
 - WordPiece
 - SentencePiece
@@ -62,7 +62,6 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - Machine Translation
 - Text-to-Speech(TTS) Generation
 - Dialogue Modelling
-    - Designing formal systems that reproduce aspects of natural conversation
   
 ### Others
 - Phase/Sentence Similarity
@@ -77,17 +76,17 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
   
 ## Huggingface Specific
 - state dictionary
-  - contains model weights/parameters, often stored in *.bin
-- Special tokens
 
-| Token | Notes |
-| :---------------------:  | :---------------------:  |
-| [CLS] | Beginnning of sentence|
-| [SEP] | End of sentence |
-| [UNK] | Unknown character (Words that are not represented in the dictionary) |
-  
-  
-  ### Notes
-  - Encoder-decoder network / sequence-to-sequence model generates contextually appropriate, arbitrary length, output sequences
-  - **Autoregressive model** is a time series model that uses observations from previous time steps as input to predict the value at the next time step. Seq-to-seq / Encoder-decoder model is an autoregressive model.
-  - The resources used to train machine translation systems are known as parallel texts, or bitexts. These are large text collections consisting of pair of sentences from different languages that are translation of one another. 
+
+## Notes 
+- **Dialogue Modelling** is a use case about the designing of formal system that reproduce aspects of natural conversation
+- An **autoregressive model** predicts future values based on past values. Seq-to-seq / Encoder-decoder model is an autoregressive model.
+- **Language modeling (LM)** is the use of various statistical and probabilistic techniques to determine the probability of a given sequence of words occurring in a sentence
+- **Agglutinative Language**
+<div align="center">
+  <img alt="text" src="../metadata/agglutinative_language.png" width="500"><br>
+</div>
+
+- The resources used to train machine translation systems are known as **parallel texts**, or **bitexts**. These are large text collections consisting of pair of sentences from different languages that are translation of one another. 
+
+- **State dictionary** of Hugging Face contains model weights/parameters, often stored in *.bin
