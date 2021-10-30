@@ -1,7 +1,7 @@
 Every domain has it's commonly used terms/phrases.  
 Below is an non-exhaustive list covering important keywords in Natural Language Processing (NLP). 
 
-### General
+## General
 - corpus
 - word embedding/word vector/word representation
 - contextual word representations
@@ -9,16 +9,17 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - stopwords
 - Out of Vocabulary (OOV)
 - attention
-- language model/modelling
+- language model/modelling (LM)
 - downstream task
 - negative sampling
 - hierarchical softmax
-- auto-regressive
+- auto-regressive model
 - auto-encoding
 - lexical-database
 - self-supervised learning
 - causal language model
 - sequence-to-sequence (seq-to-seq)
+- encoder-decoder network
 - extrinsic<>instrinsic evaluation
 - tokenizer/tokenization
 - window-based neural model
@@ -26,10 +27,9 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - agglutinative language 
 - prefix 
 - suffix
+- parallel text/**bitext**
 
-
-
-### Algorithm
+## Algorithm
 
 - WordPiece
 - SentencePiece
@@ -48,29 +48,45 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - Bilingual Evaluation Understudy (BLEU)
   
   
-### Use Cases
+## Use Cases
+  
+### Classification
 - Document Classification
 - Sentiment Analysis
 - Spam Filtering
 - Dialog Classification
+  
+### Seq-to-seq
 - Text Summarization
 - Question Answering
-- Phase/Sentence Similarity
 - Machine Translation
+- Text-to-Speech(TTS) Generation
+- Dialogue Modelling
+  
+### Others
+- Phase/Sentence Similarity
 - Named Entity Recognition (NER)
 - Dependency Parsing
 - Part of Speech (POS) Tagging
 - Masked Language Modelling
 - Zero Shot Classification
 - Text Generation  
-  
-### Huggingface Specific
-- state dictionary
-  - contains model weights/parameters, often stored in *.bin
-- Special tokens
+- Speech Synthesis
 
-| Token | Notes |
-| :---------------------:  | :---------------------:  |
-| [CLS] | Beginnning of sentence|
-| [SEP] | End of sentence |
-| [UNK] | Unknown character (Words that are not represented in the dictionary) |
+  
+## Huggingface Specific
+- state dictionary
+
+
+## Notes 
+- **Dialogue Modelling** is a use case about the designing of formal system that reproduce aspects of natural conversation
+- An **autoregressive model** predicts future values based on past values. Seq-to-seq / Encoder-decoder model is an autoregressive model.
+- **Language modeling (LM)** is the use of various statistical and probabilistic techniques to determine the probability of a given sequence of words occurring in a sentence
+- **Agglutinative Language**
+<div align="center">
+  <img alt="text" src="../metadata/agglutinative_language.png" width="500"><br>
+</div>
+
+- The resources used to train machine translation systems are known as **parallel texts**, or **bitexts**. These are large text collections consisting of pair of sentences from different languages that are translation of one another. 
+
+- **State dictionary** of Hugging Face contains model weights/parameters, often stored in *.bin
