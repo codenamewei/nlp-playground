@@ -8,7 +8,7 @@
 - The Skip Gram and CBOW models are shallow window-based, which learn word embeddings by making predictions in local context windows. These models demonstrate the capacity to capture complex linguistic patterns beyond word similarity, but fail to make use of the **global co-occurrence statistics**.
 - **Hierarchical Softmax, Negative Sampling**
 <div align="center">
-  <img alt="text" src="../metadata/hierarchical-softmax.png" width="350"><br>
+  <img alt="text" src="../metadata/hierarchical-softmax.png" width="500"><br>
 </div>
 
 
@@ -54,4 +54,28 @@ There are different tokenization approaches, such as
 
 <div align="center">
   <img alt="text" src="../metadata/transformer_and_head.png" width="500"><br>
+</div>
+
+
+## Language Model 
+- A language model usually does not need labels for its pretraining.
+  - The pretraining is usually _self-supervised_, which means the labels are created automatically from the inputs (like predicting the next word or filling in some masked words.) 
+  - Predict the next word model is a causal language model. 
+
+- Causal Language Modelling
+  <div align="center">
+  <img alt="text" src="../metadata/causal-language-modelling.png" width="500"><br>
+</div>
+
+- Masked Language Modelling
+  <div align="center">
+  <img alt="text" src="../metadata/masked-language-modelling.png" width="500"><br>
+</div>
+
+### Evaluation
+<div align="center">
+  <img alt="text" src="../metadata/extrinsic.png" width="300"><br>
+</div>
+<div align="center">
+  <img alt="text" src="../metadata/intrinsic.png" width="300"><br>
 </div>
