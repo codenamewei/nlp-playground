@@ -58,6 +58,10 @@ There are different tokenization approaches, such as
 
 
 ## Language Model 
+- What is language model?
+  - All the Transformer models mentioned above (GPT, BERT, BART, T5, etc.) have been trained as language models. This means they have been trained on large amounts of raw text in a self-supervised fashion.
+  - This type of model develops a statistical understanding of the language it has been trained on, but it’s not very useful for specific practical tasks. Because of this, the general pretrained model then goes through a process called transfer learning. During this process, the model is fine-tuned in a supervised way — that is, using human-annotated labels — on a given task.
+
 - A language model usually does not need labels for its pretraining.
   - The pretraining is usually _self-supervised_, which means the labels are created automatically from the inputs (like predicting the next word or filling in some masked words.) 
   - Predict the next word model is a causal language model. 
