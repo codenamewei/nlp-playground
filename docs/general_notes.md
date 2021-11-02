@@ -33,6 +33,10 @@ There are different tokenization approaches, such as
 
 
 ## GPT-*
+- GPT
+  - The first pretrained Transformed model, used for fine tuning on various NLP tasks and obtained state-of-the-art results.
+- GPT-3
+  - An even bigger version of GPT-2 that is able to perform well on a variety of tasks without the need for fine tuning (called zero-shot learning)
 - Gpt2 is not released to the public due to ethical concern
   - Note: On GPT2 when he is changed to she, the descriptives change to adjectives that focusing on physical appearance. Hhence OpenAI advice that gpt2 should be avoided to interact with human
     - He was very 
@@ -58,6 +62,11 @@ There are different tokenization approaches, such as
   <img alt="text" src="../metadata/transformer_and_head.png" width="500"><br>
 </div>
 
+
+- Bert
+  - Large pretrained model, designed to produced better summaries of sentences
+- Bart & t5
+  - Two large pretrained models using the same architecture as the original transformed model (the first to do so)
 - Three variants of Transformer
    - **GPT-like**
     - also called auto-regressive Transformer models 
