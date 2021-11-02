@@ -28,11 +28,14 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - prefix 
 - suffix
 - parallel text/**bitext**
+- wordnet
 
 ## Algorithm
 
 - WordPiece
 - SentencePiece
+- Skip Gram
+- Continuous Bag of Words
 - Byte-Pair Encoding
 - Term Frequency — Inverse Document Frequency (TF-IDF)
 - Global Vectors for Word Representation (GloVE)
@@ -87,6 +90,9 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
   <img alt="text" src="../metadata/agglutinative_language.png" width="500"><br>
 </div>
 
+- **Wordnet** is a lexical database of semantic relations between words in more than 200 languages. Links words into semantic relations including synonyms, hyponyms, and meronyms.
+  - The meaning of "lexical" relate to the words or vocabulary of a language. Such as: lexical database
 - The resources used to train machine translation systems are known as **parallel texts**, or **bitexts**. These are large text collections consisting of pair of sentences from different languages that are translation of one another. 
-
+- **Skip Gram** predict context words from center of word
+- **Zero Shot Classification** provide probability score for any list of labels with the data provided without training
 - **State dictionary** of Hugging Face contains model weights/parameters, often stored in *.bin
