@@ -1,3 +1,5 @@
+
+
 ## Word Vector
 - Skip Gram
 <div align="center">
@@ -56,6 +58,16 @@ There are different tokenization approaches, such as
   <img alt="text" src="../metadata/transformer_and_head.png" width="500"><br>
 </div>
 
+- Three variants of Transformer
+   - **GPT-like**
+    - also called auto-regressive Transformer models 
+    - auto regressive -  predicts future values based on past values. For example, an autoregressive model might seek to predict a stock's future prices based on its past performance
+   - **Bert-like**
+    - also called auto-encoding Transformer models 
+    - auto encoding - learn efficient codings of unlabeled data (unsupervised learning)
+   - **BART/T5-like**
+    - also called seq-to-seq Transformer models 
+    - sequence to sequence - map a fixed-length input with a fixed-length output where the length of the input and output may differ
 
 ## Language Model 
 - What is language model?
