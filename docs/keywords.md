@@ -20,6 +20,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - causal language model
 - sequence-to-sequence (seq-to-seq)
 - encoder-decoder network
+- context vector
 - extrinsic<>instrinsic evaluation
 - tokenizer/tokenization
 - window-based neural model
