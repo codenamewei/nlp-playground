@@ -52,6 +52,7 @@ There are different tokenization approaches, such as
 
 ## Attention, Transformer
 - Transformer is based on attention, but not recurring element
+  - The encoder pass all hidden states to decoder (instead of only passing last hidden states in rnn/lstm)
 - Self-attention is an attention mechanism relating to different positions of a single sequence in order to compute a representation of the sequence 
 
 <div align="center">
