@@ -51,10 +51,9 @@ There are different tokenization approaches, such as
       - bubbly
 
 ## Attention, Transformer
-- Transformer is based on attention, but not recurring element
+- Transformer is based on attention, but not recurring element (not using RNNs or convolution) 
   - The encoder pass all hidden states to decoder (instead of only passing last hidden states in rnn/lstm)
-- Self-attention is an attention mechanism relating to different positions of a single sequence in order to compute a representation of the sequence 
-
+- Self-attention, sometimes called intra-attention, is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence.
 <div align="center">
   <img alt="text" src="../metadata/transformer.png" width="500"><br>
 </div>
