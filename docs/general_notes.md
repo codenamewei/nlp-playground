@@ -78,6 +78,10 @@ There are different tokenization approaches, such as
    - **BART/T5-like**
     - also called seq-to-seq Transformer models 
     - sequence to sequence - map a fixed-length input with a fixed-length output where the length of the input and output may differ
+- Content vector between encoder and decoder may have a size of 256, 512 or 1024. 
+- 2 reaons why attention better than classic seq-2-seq model
+  1. The _encoder_ passed a lot more data to the _decoder_. Instead of passing the last hidden state of the encoding stage, the encoder passes all the hidden states to the decoder
+  2. Attention _decoder_ does extra steps between producing its output: concatenate the softmax ouput of context vector with the hidden state at current stage of decoder. 
 
 ## Language Model 
 - What is language model?
