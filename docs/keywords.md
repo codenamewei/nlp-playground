@@ -49,7 +49,11 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - BART
 - TF5
 - GPT-<numerical value> Example: GPT-3
-- Bilingual Evaluation Understudy (BLEU)
+  
+## Evaluation 
+- BLEU (Bilingual Evaluation Understudy) Score
+  - The BLEU score provides an overall assessment of model quality
+  - In translation, indicates how similar the candidate text is to the reference texts, with values closer to **one** representing more similar texts.
   
   
 ## Use Cases
