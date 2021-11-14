@@ -54,6 +54,8 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - BLEU (Bilingual Evaluation Understudy) Score
   - The BLEU score provides an overall assessment of model quality
   - In translation, indicates how similar the candidate text is to the reference texts, with values closer to **one** representing more similar texts.
+- GLUE Benchmark
+  - An academic benchmark that is used to measure the performance of ML models across 10 different text classification tasks.
   
   
 ## Use Cases
