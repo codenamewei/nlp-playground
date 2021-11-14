@@ -52,11 +52,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
   
 ## Evaluation 
 - BLEU (Bilingual Evaluation Understudy) Score
-  - The BLEU score provides an overall assessment of model quality
-  - In translation, indicates how similar the candidate text is to the reference texts, with values closer to **one** representing more similar texts.
 - GLUE Benchmark
-  - An academic benchmark that is used to measure the performance of ML models across 10 different text classification tasks.
-  
   
 ## Use Cases
   
@@ -65,6 +61,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - Sentiment Analysis
 - Spam Filtering
 - Dialog Classification
+- Paraphase Understanding
   
 ### Seq-to-seq
 - Text Summarization
@@ -103,3 +100,4 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - **Skip Gram** predict context words from center of word
 - **Zero Shot Classification** provide probability score for any list of labels with the data provided without training
 - **State dictionary** of Hugging Face contains model weights/parameters, often stored in *.bin
+- A **paraphrase** is a restatement of the meaning of a text or passage using other word
