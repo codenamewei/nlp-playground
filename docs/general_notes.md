@@ -108,3 +108,8 @@ There are different tokenization approaches, such as
 <div align="center">
   <img alt="text" src="../metadata/intrinsic.png" width="300"><br>
 </div>
+- BLEU (Bilingual Evaluation Understudy) Score
+  - The BLEU score provides an overall assessment of model quality
+  - In translation, indicates how similar the candidate text is to the reference texts, with values closer to **one** representing more similar texts.
+- GLUE Benchmark
+  - An academic benchmark that is used to measure the performance of ML models across 10 different text classification tasks.
