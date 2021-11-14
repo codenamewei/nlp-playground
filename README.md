@@ -33,3 +33,6 @@ conda activate nlp-playground
 
 ### Blogs
 - [HuggingFace Blogs](https://huggingface.co/blog)
+
+### Datasets
+= [HuggingFace Datasets](https://huggingface.co/datasets)
