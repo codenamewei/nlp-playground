@@ -30,9 +30,9 @@ conda activate nlp-playground
 ### Interesting Repos
 - [**subreddit-analyzer** _A comprehensive Data and Text Mining workflow for submissions and comments from any given public subreddit_](https://github.com/PhantomInsights/subreddit-analyzer)
 
+### Datasets
+- [HuggingFace Datasets](https://huggingface.co/datasets)
 
 ### Blogs
 - [HuggingFace Blogs](https://huggingface.co/blog)
 
-### Datasets
-= [HuggingFace Datasets](https://huggingface.co/datasets)
