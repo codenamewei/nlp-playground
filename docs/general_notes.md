@@ -101,6 +101,11 @@ There are different tokenization approaches, such as
   <img alt="text" src="../metadata/masked-language-modelling.png" width="500"><br>
 </div>
 
+
+## Hugging-Face Specific 
+- Dynamic Padding
+  - Pad the data to the length of the longest element (for each batch), longest element of each batch, not maximum length of the whole dataset.
+
 ### Evaluation
 <div align="center">
   <img alt="text" src="../metadata/extrinsic.png" width="300"><br>
