@@ -49,8 +49,10 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - BART
 - TF5
 - GPT-<numerical value> Example: GPT-3
-- Bilingual Evaluation Understudy (BLEU)
   
+## Evaluation 
+- BLEU (Bilingual Evaluation Understudy) Score
+- GLUE Benchmark
   
 ## Use Cases
   
@@ -59,6 +61,7 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - Sentiment Analysis
 - Spam Filtering
 - Dialog Classification
+- Paraphase Understanding
   
 ### Seq-to-seq
 - Text Summarization
@@ -97,3 +100,4 @@ Below is an non-exhaustive list covering important keywords in Natural Language 
 - **Skip Gram** predict context words from center of word
 - **Zero Shot Classification** provide probability score for any list of labels with the data provided without training
 - **State dictionary** of Hugging Face contains model weights/parameters, often stored in *.bin
+- A **paraphrase** is a restatement of the meaning of a text or passage using other word

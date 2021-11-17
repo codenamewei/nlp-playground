@@ -51,10 +51,9 @@ There are different tokenization approaches, such as
       - bubbly
 
 ## Attention, Transformer
-- Transformer is based on attention, but not recurring element
+- Transformer is based on attention, but not recurring element (not using RNNs or convolution) 
   - The encoder pass all hidden states to decoder (instead of only passing last hidden states in rnn/lstm)
-- Self-attention is an attention mechanism relating to different positions of a single sequence in order to compute a representation of the sequence 
-
+- Self-attention, sometimes called intra-attention, is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence.
 <div align="center">
   <img alt="text" src="../metadata/transformer.png" width="500"><br>
 </div>
@@ -102,6 +101,11 @@ There are different tokenization approaches, such as
   <img alt="text" src="../metadata/masked-language-modelling.png" width="500"><br>
 </div>
 
+
+## Hugging-Face Specific 
+- Dynamic Padding
+  - Pad the data to the length of the longest element (for each batch), longest element of each batch, not maximum length of the whole dataset.
+
 ### Evaluation
 <div align="center">
   <img alt="text" src="../metadata/extrinsic.png" width="300"><br>
@@ -109,3 +113,9 @@ There are different tokenization approaches, such as
 <div align="center">
   <img alt="text" src="../metadata/intrinsic.png" width="300"><br>
 </div>
+
+- BLEU (Bilingual Evaluation Understudy) Score
+  - The BLEU score provides an overall assessment of model quality
+  - In translation, indicates how similar the candidate text is to the reference texts, with values closer to **one** representing more similar texts.
+- GLUE Benchmark
+  - An academic benchmark that is used to measure the performance of ML models across 10 different text classification tasks.
