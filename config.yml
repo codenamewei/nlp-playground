@@ -10,5 +10,7 @@ dependencies:
   - pip=20.2.*
   - jupyterlab=3.0.*
   - pip:
-    - transformers==4.6.*
+    - transformers==4.12.*
     - datasets==1.8.*
+    - huggingface-hub==0.1.*
+    - datasets==1.15.*
