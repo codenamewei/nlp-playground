@@ -14,3 +14,5 @@ dependencies:
     - datasets==1.8.*
     - huggingface-hub==0.1.*
     - datasets==1.15.*
+    - librosa==0.8.&
+    - transformers==4.12.*
