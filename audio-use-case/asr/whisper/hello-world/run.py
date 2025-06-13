@@ -16,7 +16,10 @@ model_id = "openai/whisper-large-v3"
 audio_path = "../../../../data/audio"
 audio_file_name = 'eng.mp3'
 audio_abs_path = os.path.join(audio_path, audio_file_name)
-pipe = pipeline("automatic-speech-recognition", model=model_id)
+pipe = pipeline("automatic-speech-recognition", 
+                model=model_id,
+                return_timestamps=True
+                )
 
 if __name__ == "__main__":
     
