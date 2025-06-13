@@ -18,6 +18,8 @@ audio_file_name = 'eng.mp3'
 audio_abs_path = os.path.join(audio_path, audio_file_name)
 pipe = pipeline("automatic-speech-recognition", 
                 model=model_id,
+                model_kwargs={"language": "english"},
+                generate_kwargs={"temperature": 0.0, "beam_size": 5},
                 return_timestamps=True
                 )
 
