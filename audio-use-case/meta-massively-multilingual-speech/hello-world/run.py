@@ -21,7 +21,7 @@ pipe = pipeline(model=model_id, model_kwargs={"target_lang": LanguageID.eng.name
 
 if __name__ == "__main__":
     
-    result = pipe(audio_path)
+    result = pipe(audio_abs_path)
 
     print(result["text"])
     
