@@ -13,10 +13,10 @@ class LanguageID(str, Enum):
 
 model_id = "facebook/mms-1b-all"
 
-audio_folder = "../../data/audio"
-audio_path = ""
-audio_abs_path = os.path.join(audio_folder, audio_path)
-pipe = pipeline(model=model_id, model_kwargs={"target_lang": LanguageID.cmn.name, "ignore_mismatched_sizes": True})
+audio_path = "../../data/audio"
+audio_file_name = 'eng.mp3'
+audio_abs_path = os.path.join(audio_path, audio_file_name)
+pipe = pipeline(model=model_id, model_kwargs={"target_lang": LanguageID.eng.name, "ignore_mismatched_sizes": True})
 
 
 if __name__ == "__main__":
