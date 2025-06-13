@@ -1,0 +1,4 @@
+mms
+```
+al dogs bar cats donkeys rinoserus cows horses chickens hens dear rabbits lions tigers monkeys elephants gerafs cangars rangatins impans oscelots twenty seconds   oig aimawobgiwltaa an woral a begis i letter  xcep for proper name n pac for xa  i ltter  spain orsal  would not bixcmgte  u you said wat wer te restrictions rnames an placs a a i o wor os many words as you canthink o bgig wle  yca art friendly fellows following few females foln for fenses from fromage fruit fructify fortify friendly use it alray forcesstr fizzl funk if yo  k fast forceful forgetful appropriate farting frank as coin
+```
