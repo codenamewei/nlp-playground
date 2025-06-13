@@ -1,0 +1,1 @@
+The *.ipynb in this folder is a learning process from [huggingface course](https://huggingface.co/course)
